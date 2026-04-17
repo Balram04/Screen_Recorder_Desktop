@@ -30,13 +30,6 @@ This app allows a user to:
   - User stops sharing externally
   - App close while recording
 
-### Not Implemented (Intentionally)
-These are optional/stretch features from the assignment and are intentionally skipped to keep code simple and focused:
-- Recording complete page
-- Session rename
-- Export settings (bitrate/format/custom location)
-- Merged final video output (final.mp4)
-
 ## Tech Stack
 - Electron
 - HTML/CSS
