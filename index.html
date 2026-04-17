@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Screen Recorder Desktop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-left"></div>
+  <div class="bg-blur bg-blur-right"></div>
+
+  <main class="app-shell">
+    <section class="card">
+      <p class="eyebrow">Desktop Studio</p>
+      <h1>Screen Recorder</h1>
+      <p class="subtitle">Capture your screen and optional webcam feed in one click.</p>
+
+      <div class="control-group">
+        <label for="screens" class="field-label">Source</label>
+        <div class="input-row">
+          <select id="screens" aria-label="Select screen source"></select>
+          <button id="load" class="btn btn-secondary">Load Screens</button>
+        </div>
+      </div>
+
+      <label class="toggle-row" for="webcamToggle">
+        <input type="checkbox" id="webcamToggle" />
+        <span>Record webcam with audio</span>
+      </label>
+
+      <div class="button-row">
+        <button id="startScreen" class="btn btn-primary">Start Recording</button>
+        <button id="stopScreen" class="btn btn-danger">Stop Recording</button>
+      </div>
+
+      <div class="status-row">
+        <div>
+          <p class="status-label">Session Time</p>
+          <h2 id="timer">00:00</h2>
+        </div>
+        <p id="recordingState" class="recording-state">Idle</p>
+      </div>
+
+      <button id="openFolder" class="btn btn-ghost">Open Session Folder</button>
+    </section>
+  </main>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
