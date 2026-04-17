@@ -199,14 +199,7 @@ Defined in package.json:
 - contextIsolation is enabled
 - Renderer only accesses whitelisted IPC methods exposed by preload.js
 
-## Demo (Recommended by Assignment)
-
-Add a short screen recording/GIF in repository docs showing:
-- Source selection
-- Start/stop recording
-- Webcam toggle during recording
-- Output folder and generated files
-
 ## Author Notes
 
-This project intentionally prioritizes assignment-required functionality and clean minimal implementation over optional feature expansion.
+This project intentionally prioritizes assignment-required functionality and clean minimal implementation over optional feature expansion Thank you 
+Balram Prajapati 😊.
